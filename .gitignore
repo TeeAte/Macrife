@@ -1,0 +1,6 @@
+# 发布仓库只放文档，二进制产物不进 git（它们走 Release 附件）
+*.dmg
+*.zip
+*.app/
+dist/
+.DS_Store
