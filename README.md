@@ -42,21 +42,19 @@
 
 | 文件 | 说明 |
 |---|---|
-| `Macrife-<版本>.dmg` | **推荐**。挂载后把 Macrife 拖进 Applications |
-| `Macrife-<版本>.zip` | 备选。解压后把 `Macrife.app` 拖进 Applications |
+| `Macrife-<版本>.dmg` | 磁盘镜像。挂载后把 Macrife 拖进 Applications 即可安装 |
 | `SHA256SUMS.txt` | 校验值，用于确认下载没被篡改/损坏 |
 
 校验（可选）：
 
 ```bash
-shasum -a 256 Macrife-1.0.dmg
+shasum -a 256 Macrife-1.01.dmg
 # 和 SHA256SUMS.txt 里对应的一行比对，一致即可
 ```
 
 ### 2. 安装
 
-- **dmg**：双击打开 → 把 `Macrife` 图标拖到窗口里的 `Applications` 替身上 → 推出磁盘镜像。
-- **zip**：双击解压 → 把 `Macrife.app` 拖进 `应用程序` 文件夹。
+双击打开下载的 `Macrife-<版本>.dmg` → 把 `Macrife` 图标拖到窗口里的 `Applications` 替身上即可完成安装。安装后推出磁盘镜像。
 
 ### 3. 首次打开：可能会看到「无法打开」
 

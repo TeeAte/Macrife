@@ -1,6 +1,16 @@
-# 发布仓库只放文档，二进制产物不进 git（它们走 Release 附件）
+# 发布仓库只放文档与打包脚本，版本构建产物不进 git（它们走 Release 附件）
+v*/
+[0-9]*/
 *.dmg
 *.zip
 *.app/
+*.app
 dist/
+build/
+.stale/
+*.stale/
+.dmg-src/
+SHA256SUMS.txt
 .DS_Store
+*.log
+.build/
