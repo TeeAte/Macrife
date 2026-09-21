@@ -37,7 +37,7 @@ if [ -n "$1" ] && [[ "$1" != -* ]]; then
     shift
 fi
 
-TIERS="576p 1080p 1440p 2160p"
+TIERS="576p 720p 1080p 1440p 2160p"
 SIGN_INPUT=""
 NO_PROMPT=0
 
