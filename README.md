@@ -5,6 +5,12 @@
 纯原生 Swift 实现，**完全离线运行**，不上传任何数据、不需要账号、不依赖 Python 环境。
 推理走 Apple 芯片的 CoreML + 自写 Metal 原生着色器内核，视频编解码走 VideoToolbox 硬件加速。
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/8a948f65-dd01-45e4-9814-a62f9c027c8b" controls="controls" muted="muted" autoplay="autoplay" loop="loop" width="100%">
+    <a href="https://github.com/user-attachments/assets/8a948f65-dd01-45e4-9814-a62f9c027c8b">效果演示：720p60 补帧片段</a>
+  </video>
+</div>
+
 ---
 
 ## 一、它能做什么
