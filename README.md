@@ -36,9 +36,9 @@
 
 | 项目 | 要求 |
 |---|---|
-| 芯片 | **Apple Silicon**（M1 / M2 / M3 / M4 全系列，含 Pro / Max / Ultra）。Intel Mac 不支持 |
+| 芯片 | **Apple Silicon**（M1 / M2 / M3 / M4 / M5 / M6 全系列，含 Pro / Max / Ultra）。Intel Mac 不支持 |
 | 系统 | macOS 15 Sequoia 或更高 |
-| 磁盘 | App 本体约 40 MB（精简包）／约 210 MB（含五档完整模型包） |
+| 磁盘 | App 本体约210 MB（含五档完整模型包） |
 | 内存 | 建议 8 GB 及以上；4K 素材建议 16 GB 及以上 |
 实测 M1 Pro 芯片补帧4k24--＞4k60甜点精度为1080p，既能保持较好的效果，速度也 ok（大约20fps）
 ---
